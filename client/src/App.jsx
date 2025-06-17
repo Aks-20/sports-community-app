@@ -5,7 +5,6 @@ import Tournaments from "./pages/Tournaments";
 import Profile from "./pages/Profile";
 import SkillCheck from "./pages/SkillCheck";
 import NotFound from "./pages/NotFound";
-import Signup from "./pages/Signup";
 
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <Route path="/tournaments" element={<Tournaments />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/skill-check" element={<SkillCheck />} />
-        <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
