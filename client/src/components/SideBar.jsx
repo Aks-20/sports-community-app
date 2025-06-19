@@ -16,9 +16,9 @@ const SIDEBAR_ITEMS = [
 	{ name: "Grounds", icon: Landmark, color: "#F59E0B", href: "/orders" },
 	{ name: "Performance", icon: TrendingUp, color: "#3B82F6", href: "/analytics" },
 	{ name: "Settings", icon: Settings, color: "#6EE7B7", href: "/settings" },
-    	{ name: "Reports", icon: Settings, color: "#6EE7B7", href: "/settings" },
-        { name: "ContentModeration", icon: Settings, color: "#6EE7B7", href: "/settings" },
-        { name: "Analytics", icon: Settings, color: "#6EE7B7", href: "/settings" }
+    	{ name: "Reports", icon: Settings, color: "#6EE7B7", href: "/s" },
+        { name: "ContentModeration", icon: Settings, color: "#6EE7B7", href: "/set" },
+        { name: "Analytics", icon: Settings, color: "#6EE7B7", href: "/Analytics" }
 
 ];
 

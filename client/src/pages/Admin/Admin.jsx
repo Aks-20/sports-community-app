@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../../components/SideBar'
+import SalesOverviewChart from '../../components/SalesOverviewChart'
 
 const Admin = () => {
   return (
@@ -11,6 +12,7 @@ const Admin = () => {
     <div className='absolute inset-0 backdrop-blur-sm' />
   </div>
     <Sidebar />
+    <SalesOverviewChart />
    </div>
    </>
   )

@@ -8,6 +8,9 @@ import NotFound from "./pages/NotFound";
 import OverView from "./pages/Admin/OverView";
 import ProductPage from "./pages/Admin/ProductPage";
 import Admin from "./pages/Admin/Admin";
+import SettingsPage from "./pages/Admin/Settings";
+import PlayerRadarChart from "./pages/PlayerRadarChart";
+//import AnalyticsPage from "./pages/Admin/Analytics";
 
 
 function App() {
@@ -23,7 +26,9 @@ function App() {
        
         <Route path="/overview" element={<OverView/>  } />
         <Route path="/products" element={<ProductPage/>}/>
-        <Route path="/Admin" element={<Admin/>} />
+        <Route path="/admin" element={<Admin/>} />
+        <Route path="/settings" element={<SettingsPage />} />
+   <Route path="/playerradar" element={<PlayerRadarChart/>} />
       </Routes>
     </BrowserRouter>
   );
