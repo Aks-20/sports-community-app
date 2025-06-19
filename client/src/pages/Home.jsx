@@ -40,7 +40,7 @@ function Home() {
             transition={{ delay: 1, duration: 1 }}
           >
             <a
-              href="/signup"
+              href="/profile"
               className="inline-block bg-blue-600 px-6 py-3 rounded hover:bg-blue-700"
             >
               Join Now

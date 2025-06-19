@@ -12,7 +12,6 @@ function Navbar() {
         <Link to="/tournaments">Tournaments</Link>
         <Link to="/profile">Profile</Link>
         <Link to="/skill-check">Skill Check</Link>
-        <Link to="/signup">Signup</Link>
       </div>
     </nav>
   );
