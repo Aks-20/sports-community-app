@@ -10,6 +10,7 @@ import ProductPage from "./pages/Admin/ProductPage";
 import Admin from "./pages/Admin/Admin";
 import SettingsPage from "./pages/Admin/Settings";
 import PlayerRadarChart from "./pages/PlayerRadarChart";
+import Grounds from "./pages/Ground";
 //import AnalyticsPage from "./pages/Admin/Analytics";
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/admin" element={<Admin/>} />
         <Route path="/settings" element={<SettingsPage />} />
    <Route path="/playerradar" element={<PlayerRadarChart/>} />
+         <Route path="/ground" element={<Grounds />} />              
       </Routes>
     </BrowserRouter>
   );
