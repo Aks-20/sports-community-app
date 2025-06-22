@@ -11,6 +11,7 @@ import Admin from "./pages/Admin/Admin";
 import SettingsPage from "./pages/Admin/Settings";
 import PlayerRadarChart from "./pages/PlayerRadarChart";
 import Grounds from "./pages/Ground";
+import SportConnectApp from "./pages/Tournament";
 //import AnalyticsPage from "./pages/Admin/Analytics";
 
 
@@ -30,7 +31,8 @@ function App() {
         <Route path="/admin" element={<Admin/>} />
         <Route path="/settings" element={<SettingsPage />} />
    <Route path="/performance" element={<PlayerRadarChart/>} />
-         <Route path="/ground" element={<Grounds />} />              
+         <Route path="/ground" element={<Grounds />} />  
+         <Route path="/tournament" element={<SportConnectApp />} />           
       </Routes>
     </BrowserRouter>
   );
