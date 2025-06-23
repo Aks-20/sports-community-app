@@ -12,6 +12,11 @@ import SettingsPage from "./pages/Admin/Settings";
 import PlayerRadarChart from "./pages/PlayerRadarChart";
 import Grounds from "./pages/Ground";
 import SportConnectApp from "./pages/Tournament";
+import TrainingSession from "./pages/TrainingSession";
+import TrainingModules from "./pages/TrainingModules";
+import Community from "./pages/Community";
+import SignUpPage from "./pages/Auth/SignUp";
+
 //import AnalyticsPage from "./pages/Admin/Analytics";
 
 
@@ -32,7 +37,11 @@ function App() {
         <Route path="/settings" element={<SettingsPage />} />
    <Route path="/performance" element={<PlayerRadarChart/>} />
          <Route path="/ground" element={<Grounds />} />  
-         <Route path="/tournament" element={<SportConnectApp />} />           
+         <Route path="/tournament" element={<SportConnectApp />} /> 
+         <Route path="/session" element={<TrainingSession />} />  
+         <Route path="/module" element={<TrainingModules />} />  
+              <Route path="/comm" element={<Community />} />          
+                   <Route path="/login" element={<SignUpPage />} /> 
       </Routes>
     </BrowserRouter>
   );
