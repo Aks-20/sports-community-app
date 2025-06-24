@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Target,
   Search,
@@ -303,10 +304,14 @@ const TrainingModules = () => {
       <nav className="border-b border-gray-200/50 bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <button className="inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors hover:bg-gray-100 h-9 px-3">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Home
-            </button>
+         
+<Link
+  to="/"
+  className="inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors hover:bg-gray-100 h-9 px-3"
+>
+  <ArrowLeft className="w-4 h-4 mr-2" />
+  Back to Home
+</Link>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center shadow-lg">
                 <Target className="w-6 h-6 text-white" />
@@ -319,10 +324,13 @@ const TrainingModules = () => {
           </div>
 
           <div className="flex items-center gap-3">
-            <button className="inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors hover:bg-gray-100 h-9 px-3">
-              <BarChart3 className="w-4 h-4 mr-2" />
-              My Progress
-            </button>
+   <Link
+  to="/performance"
+  className="inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors hover:bg-gray-100 h-9 px-3"
+>
+  <BarChart3 className="w-4 h-4 mr-2" />
+  My Progress
+</Link>
             <button className="inline-flex items-center justify-center rounded-lg text-sm font-semibold transition-all bg-gradient-to-r from-blue-500 to-purple-500 text-white hover:scale-105 h-9 px-4 shadow-lg">
               <Award className="w-4 h-4 mr-2" />
               Upgrade Plan

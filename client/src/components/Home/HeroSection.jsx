@@ -28,14 +28,14 @@ const HeroSection = ({ stats }) => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link 
-                to="/register" 
+                to="/session" 
                 className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white text-lg font-medium rounded-md flex items-center justify-center"
               >
                 <Play className="mr-2 h-5 w-5" />
                 Start Playing Now
               </Link>
               <Link 
-                to="/demo" 
+                to="/module " 
                 className="px-8 py-4 border border-gray-300 text-lg font-medium rounded-md text-center"
               >
                 Watch Demo

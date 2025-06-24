@@ -16,6 +16,9 @@ import TrainingSession from "./pages/TrainingSession";
 import TrainingModules from "./pages/TrainingModules";
 import Community from "./pages/Community";
 import SignUpPage from "./pages/Auth/SignUp";
+import ForgotPasswordPage from "./pages/Auth/ForgotPasswordPage";
+import LoginPage from "./pages/Auth/LoginPage";
+import EmailVerificationPage from "./pages/Auth/EmailVerificationPage";
 
 //import AnalyticsPage from "./pages/Admin/Analytics";
 
@@ -41,7 +44,11 @@ function App() {
          <Route path="/session" element={<TrainingSession />} />  
          <Route path="/module" element={<TrainingModules />} />  
               <Route path="/comm" element={<Community />} />          
-                   <Route path="/login" element={<SignUpPage />} /> 
+                   <Route path="/signup" element={<SignUpPage />} /> 
+
+                     <Route path="/login" element={<LoginPage />} /> 
+                     <Route path="/forgotpass" element={<ForgotPasswordPage />} /> 
+                     <Route path="/verify-email" element={<EmailVerificationPage />} />
       </Routes>
     </BrowserRouter>
   );
