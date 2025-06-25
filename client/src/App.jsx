@@ -19,6 +19,7 @@ import SignUpPage from "./pages/Auth/SignUp";
 import ForgotPasswordPage from "./pages/Auth/ForgotPasswordPage";
 import LoginPage from "./pages/Auth/LoginPage";
 import EmailVerificationPage from "./pages/Auth/EmailVerificationPage";
+import PlayerDashboard from "./pages/Player/Player.";
 
 //import AnalyticsPage from "./pages/Admin/Analytics";
 
@@ -49,6 +50,7 @@ function App() {
                      <Route path="/login" element={<LoginPage />} /> 
                      <Route path="/forgotpass" element={<ForgotPasswordPage />} /> 
                      <Route path="/verify-email" element={<EmailVerificationPage />} />
+                     <Route path="/dashboard" element={<PlayerDashboard />} />
       </Routes>
     </BrowserRouter>
   );
