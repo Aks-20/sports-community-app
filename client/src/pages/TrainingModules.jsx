@@ -331,10 +331,10 @@ const TrainingModules = () => {
   <BarChart3 className="w-4 h-4 mr-2" />
   My Progress
 </Link>
-            <button className="inline-flex items-center justify-center rounded-lg text-sm font-semibold transition-all bg-gradient-to-r from-blue-500 to-purple-500 text-white hover:scale-105 h-9 px-4 shadow-lg">
+           <Link to="/upgrade" className="inline-flex items-center justify-center rounded-lg text-sm font-semibold transition-all bg-gradient-to-r from-blue-500 to-purple-500 text-white hover:scale-105 h-9 px-4 shadow-lg">
               <Award className="w-4 h-4 mr-2" />
               Upgrade Plan
-            </button>
+            </Link>
           </div>
         </div>
       </nav>

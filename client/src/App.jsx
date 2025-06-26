@@ -20,6 +20,7 @@ import ForgotPasswordPage from "./pages/Auth/ForgotPasswordPage";
 import LoginPage from "./pages/Auth/LoginPage";
 import EmailVerificationPage from "./pages/Auth/EmailVerificationPage";
 import PlayerDashboard from "./pages/Player/Player.";
+import UpgradePlan from "./pages/UpgradePlan";
 
 //import AnalyticsPage from "./pages/Admin/Analytics";
 
@@ -51,6 +52,7 @@ function App() {
                      <Route path="/forgotpass" element={<ForgotPasswordPage />} /> 
                      <Route path="/verify-email" element={<EmailVerificationPage />} />
                      <Route path="/dashboard" element={<PlayerDashboard />} />
+                      <Route path="/upgrade" element={<UpgradePlan />} />
       </Routes>
     </BrowserRouter>
   );
